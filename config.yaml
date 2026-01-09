@@ -1,0 +1,13 @@
+app:
+  name: AutoIsys
+  version: 0.0.1
+packages:
+- git
+- curl
+- htop
+system:
+  auto_install: true
+  auto_update: true
+  enable_services:
+  - docker
+  install_docker: true
